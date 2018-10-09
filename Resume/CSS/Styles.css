@@ -92,11 +92,13 @@ footer {
   text-align: center;
 }
 .contact-info a {
-    background-color: white;
-  padding: 5px;
+/*    background-color: white;*/
+    color: white;
+    padding: 5px;
     margin-top: 1px;
     margin-bottom: 1px;
-  display: inline-block;
+    display: inline-block;
+    font-size: 3em;
 }
 
 
