@@ -37,21 +37,25 @@ a:hover{
 }
 
 .content-wrap{
-    max-width: 450px;
+    max-width: 950px;
     margin: 0 auto;
     padding: 50px;
     overflow: hidden;
 }
+/*
 
-.col-narrow{
-    width: 30%;
-    float: left;
+.column-narrow {
+  width: 35%;
+  float: left;
+  padding-right: 3%;
+  min-height: 175px;
 }
-
-.col-wide{
-    width: 70%;
-    float: left;
+.column-wide {
+  width: 62%;
+  float: left;
+  min-height: 175px;
 }
+*/
 
 
 
@@ -70,25 +74,30 @@ header h1, header h2{
     margin: 0;
 }
 
-footer{
-    text-align: center;
+footer {
+  text-align: center;
 }
+.contact-info a {
+    background-color: white;
+  padding: 5px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+  display: inline-block;
+}
+
 
 .profile-img{
     width: 300px;
     border-radius: 50%;
 }
+
+nav {
+    text-align: center;
+}
 /* Work Experience
 **********************/
 .Work{
     background-color: #EDF2F4;
-}
-
-.contact-info a {
-    background: white;
-    padding: 5px;
-    display: inline-block;
-    width:auto;
 }
 
 
