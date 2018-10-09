@@ -39,7 +39,7 @@ a:hover{
 .content-wrap{
     max-width: 950px;
     margin: 0 auto;
-    padding: 50px;
+    padding: 60px 50px;
     overflow: hidden;
 }
 /*
@@ -57,6 +57,19 @@ a:hover{
 }
 */
 
+.btn{
+    text-decoration: none;
+    background: #EF233C;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+}
+
+.btn:hover{
+    background: white;
+    color: #EF233C;
+}
+
 
 
 /* Header and footer
@@ -68,6 +81,7 @@ header, footer {
 
 header{
     text-align: center;
+    padding-top: 50px;
 }
 header h1, header h2{
     color: #EDF2F4;
@@ -93,6 +107,17 @@ footer {
 
 nav {
     text-align: center;
+    background: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+nav a{
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
 }
 /* Work Experience
 **********************/
